@@ -1,6 +1,7 @@
 body {
     overflow-y: scroll;
      overflow-x:hidden;
+    font-family: "Playfair Display";
 }
 #cover {
 	width: 100vw;
@@ -88,13 +89,33 @@ li a:hover {
     text-decoration: underline;
     transform: scale(2);
 }
-.fotos, .fotos1 {
-    display: inline;
-    width:30%;
-     padding-top:15%;
-}
 
-.fotos1 {
-    padding-left:2%;
-   
+.fotos {
+    width:95%;
+    padding-left:4%;
+}
+.texti {
+    padding-left:4%;
+    padding-top:7%;
+    padding-right:4%;
+}
+#up {
+    padding-top:13%;
+}
+#botao {
+    text-align: center;
+    padding-top:5%;
+}
+button {
+    background-color: transparent;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius:5px;
+    padding: 10px;
+    color:rgba(0,0,0,0.7);
+}
+button:hover {
+    color:white;
+    background-color:rgba(0,0,0,0.3);
+    border:0px;
+    transition: 0.4s;
 }
